@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    environment:
+      - DJANGO_SETTINGS_MODULE=search_system.settings
+
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_DB=search_system
+      - POSTGRES_USER=myuser
+      - POSTGRES_PASSWORD=mypassword

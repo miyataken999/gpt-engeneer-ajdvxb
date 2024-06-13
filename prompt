@@ -1,0 +1,113 @@
+djang検索システムの作成
+pathにフォルダー名をいれないこと、
+フォルダー以下のファイルをcopyしているのでエラーになる
+djangoで検索システム
+setting.spy
+usr.pyをきちんと作る
+manage.pyなどフォルダーなど各自に作成
+setting.pyなどのパスを合わせる
+dockerでテストする
+sql
+SELECT * 
+FROM shop 
+WHERE 
+  category LIKE '%Fluorescence%' 
+  OR category LIKE '%Carat%' 
+  OR category LIKE '%Color Grade%' 
+  OR category LIKE '%Cutting Style%' 
+  OR name LIKE '%FLUORESCENCE%' 
+  OR category LIKE '%Round Brilliant%' 
+  OR subcategory LIKE '%CUT PROPORTION%' 
+  OR subcategory LIKE '%CUT GRADE%' 
+  OR subcategory LIKE '%POLISH%' 
+  OR subcategory LIKE '%SYMMETRY%' 
+  OR subcategory LIKE '%THIN-MEDIUM%' 
+  OR subcategory LIKE '%MEDIUM WHITISH BLUE%' 
+  AND 
+  (PRICE >= 0 AND PRICE <= 4.41);djang検索システムの作成
+pathにフォルダー名をいれないこと、
+フォルダー以下のファイルをcopyしているのでエラーになる
+djangoで検索システム
+setting.spy
+usr.pyをきちんと作る
+manage.pyなどフォルダーなど各自に作成
+setting.pyなどのパスを合わせる
+dockerでテストする
+sql
+SELECT * 
+FROM shop 
+WHERE 
+  category LIKE '%Fluorescence%' 
+  OR category LIKE '%Carat%' 
+  OR category LIKE '%Color Grade%' 
+  OR category LIKE '%Cutting Style%' 
+  OR name LIKE '%FLUORESCENCE%' 
+  OR category LIKE '%Round Brilliant%' 
+  OR subcategory LIKE '%CUT PROPORTION%' 
+  OR subcategory LIKE '%CUT GRADE%' 
+  OR subcategory LIKE '%POLISH%' 
+  OR subcategory LIKE '%SYMMETRY%' 
+  OR subcategory LIKE '%THIN-MEDIUM%' 
+  OR subcategory LIKE '%MEDIUM WHITISH BLUE%' 
+  AND 
+  (PRICE >= 0 AND PRICE <= 4.41);djang検索システムの作成
+# 要件
+pathにフォルダー名をいれないこと、
+検索のQオブジェクトと
+wsgy.pyは設定
+フォルダー以下のファイルをcopyしているのでエラーになる
+djangoで検索システム
+setting.spy
+## 機能
+usr.pyをきちんと作る
+manage.pyなどフォルダーなど各自に作成
+setting.pyなどのパスを合わせる
+dockerでテストする
+sql
+SELECT * 
+FROM shop 
+WHERE 
+  category LIKE '%Fluorescence%' 
+  OR category LIKE '%Carat%' 
+  OR category LIKE '%Color Grade%' 
+  OR category LIKE '%Cutting Style%' 
+  OR name LIKE '%FLUORESCENCE%' 
+  OR category LIKE '%Round Brilliant%' 
+  OR subcategory LIKE '%CUT PROPORTION%' 
+  OR subcategory LIKE '%CUT GRADE%' 
+  OR subcategory LIKE '%POLISH%' 
+  OR subcategory LIKE '%SYMMETRY%' 
+  OR subcategory LIKE '%THIN-MEDIUM%' 
+  OR subcategory LIKE '%MEDIUM WHITISH BLUE%' 
+  AND 
+  (PRICE >= 0 AND PRICE <= 4.41);djang検索システムの作成
+# 要件
+pathにフォルダー名をいれないこと、
+検索のQオブジェクトと
+wsgy.pyは設定
+フォルダー以下のファイルをcopyしているのでエラーになる
+djangoで検索システム
+setting.spy
+## 機能
+usr.pyをきちんと作る
+manage.pyなどフォルダーなど各自に作成
+setting.pyなどのパスを合わせる
+dockerでテストする
+sql
+SELECT * 
+FROM shop 
+WHERE 
+  category LIKE '%Fluorescence%' 
+  OR category LIKE '%Carat%' 
+  OR category LIKE '%Color Grade%' 
+  OR category LIKE '%Cutting Style%' 
+  OR name LIKE '%FLUORESCENCE%' 
+  OR category LIKE '%Round Brilliant%' 
+  OR subcategory LIKE '%CUT PROPORTION%' 
+  OR subcategory LIKE '%CUT GRADE%' 
+  OR subcategory LIKE '%POLISH%' 
+  OR subcategory LIKE '%SYMMETRY%' 
+  OR subcategory LIKE '%THIN-MEDIUM%' 
+  OR subcategory LIKE '%MEDIUM WHITISH BLUE%' 
+  AND 
+  (PRICE >= 0 AND PRICE <= 4.41);

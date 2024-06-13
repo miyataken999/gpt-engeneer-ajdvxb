@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Search Results</h1>
+  <ul>
+    {% for shop in shops %}
+      <li>{{ shop.name }} ({{ shop.category }}) - {{ shop.price }}</li>
+    {% empty %}
+      <li>No results found.</li>
+    {% endfor %}
+  </ul>
+{% endblock %}
